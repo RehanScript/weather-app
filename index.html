@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <!-- Main card container for the weather app -->
+    <div class="card">
+        <!-- Search section with input field and search button -->
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png" alt=""></button>
+        </div>
+        <!-- Weather information container -->
+        <div>
+            <!-- Weather details section (initially hidden via CSS) -->
+            <div class="weather">
+                <!-- Weather condition icon -->
+                <img src="images/rain.png" class="weather-icon">
+                <!-- Temperature display -->
+                <h1 class="temp">20°C</h1>
+                <!-- City name display -->
+                <h2 class="city">Jamshedpur</h2>
+                
+                <!-- Additional weather details section -->
+                <div class="details">
+                    <!-- Humidity information column -->
+                    <div class="col">
+                        <img src="images/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <!-- Wind speed information column -->
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p class="wind">15Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
